@@ -1,0 +1,32 @@
+header {
+    height: 130px;
+    border-bottom: 5px double black;
+}
+h1{
+    color:red;
+    
+}
+ header nav {
+     display: flex;
+     justify-content: space-evenly;
+     align-items:  center;
+
+ }
+ 
+ header nav a {
+     color: orangered;
+     font-weight: bold;
+     font-size: 2em;
+     border: 1px darkorchid rebeccapurple;
+     text-transform: uppercase;
+     text-decoration: none;
+     display: inline-block;
+     margin: 0 15px;
+ }
+ main {
+     height: 80vh;
+     width: 100vw;
+     display: flex;
+     justify-content: center;
+     align-items: center
+ }
